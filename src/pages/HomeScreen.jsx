@@ -17,7 +17,7 @@ const HomeScreen = () => {
   };
 
   const nextNews = () => {
-    if (pagina <= 3) {
+    if (pagina <= 4) {
       setPagina(pagina + 1);
     }
   };
